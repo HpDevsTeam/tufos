@@ -1,0 +1,75 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+}
+
+body{
+}
+
+.flex-top{
+    display: flex;
+    align-items: center;
+    background-color: orange;
+}
+
+main{
+    text-align: center;
+}
+
+.logo{
+    margin: auto;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.menudesk{
+    margin: auto;
+}
+
+.menudesk li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menudesk a{
+    display: block;
+    padding: 16px 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menudesk a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.menu-mobile{
+    margin: auto;
+}
+
+.menu-mobile img{
+    width: 80px;
+}
+
+.perfil p{
+    text-align: justify;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.perfil img{
+    width: 200px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .menudesk{
+        display: none;
+    }
+    
+    .menu-ocult{
+        display: none;
+    }
+}
