@@ -97,6 +97,16 @@ footer{
 
 /*Corpo aqui*/
 
+.tex-corp {
+    margin: 20px;
+}
+
+.tex-corp p {
+    text-align: justify;
+    width: 500px;
+    margin: 50px auto;
+}
+
 .flex-corp{
     display: flex;
     flex-wrap: wrap;
