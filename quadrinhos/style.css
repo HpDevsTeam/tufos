@@ -66,8 +66,8 @@ footer{
     background-color: orange;
     position: absolute;
     width: 100%;
-    text-align: center;
     display: none;
+    text-align: center;
 }
 
 .menu-ocult li{
@@ -95,40 +95,51 @@ footer{
     transform: scale(1.1);
 }
 
-.perfil{
-    margin: 20px;
+/*Corpo aqui*/
+
+.flex-corp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.perfil p{
-    text-align: justify;
-    width: 500px;
-    margin: 50px auto;
-}
-
-.perfil img{
-    width: 200px;
-    margin: 20px;
-}
-
-.texto-corpo{
-    margin: 20px;
-}
-
-.texto-corpo p{
-    text-align: justify;
-    width: 500px;
-    margin: 50px auto;   
-}
-
-.caixa{
-    background-color: green;
+.bloco{
+    background-color: orange;
     width: 300px;
-    padding: 20px 0px;
-    margin: 50px auto;
+    padding: 20px;
+    margin: 20px;
     border-radius: 10px;
     color: white;
-    font-weight: bold;
 }
+
+.bloco a{
+    text-align: center;
+    display: block;
+    color: green;
+    font-weight: bold;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 0px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.bloco a:hover{
+    text-decoration: underline;
+}
+
+
+.bloco details{
+    text-align: justify;
+    color: blue;
+}
+
+.bloco p{
+    text-align: justify;
+}
+
+/*Corpo termina aqui*/
 
 @media screen and (max-width: 800px) {
     .menudesk{
